@@ -283,4 +283,153 @@ body{
 .skills{
     padding-left: 0%;
 }
+/* Contact Us Page CSS starts here */
+.Contact{
+    padding: 0%;
+    margin: 0%;
+    box-sizing: border-box;
+    outline: none;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    background: #f2f2f2;
+}
+.contact-form{
+    padding: 0%;
+    width:80vw;
+    display: flex;
+    justify-content: space-between;
+    background:#fff;
+    margin: 10vh 10vw;
+}
+.contact-form >*{
+    width: 50%;
+}
+.info-container{
+    
+    padding: 5vh 5vw;
+    background:#343945 ;
+    color: white;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 1.2;
+    
+}
+.info-container  h3 {
+    
+    
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 1.2;
+    padding-top: 10px;
+    padding-bottom: 0px;
+    
+}
+.info-container  p {
+    
+    
+    font-size: 16px;
+    line-height: 1.6;
+    color: green;
+    max-width:260px ;
+    
+}
+.second-container{
+    padding: 5vh 5vw;
+    background: #2c323d;
+    color: white;
+}
+.second-container form{
+    display: flex;
+    flex-direction: column;
+    padding: 10.6px;
+}
+.second-container h2{
+    font-size: 26px;
+    font-weight: 500;
+    line-height: 1.2;
+    text-align: centre;
+    margin-bottom: 20px;
+
+}
+.form-group{
+    margin-bottom: 1.2px;
+}
+form-group *{
+   min-height: 55px;
+   border: 1px solid #e6e6e6;
+   padding: 9 20px ;
+}
+.form-group label{
+    display: flex;
+    align-items: center;
+    width: 100%;
+    border:1px solid #e66e6e6;
+    font-size: 16px;
+    text-transform : uppercase;
+}
+.form-group :first-of-type input{
+    width: 50.1%;
+    margin-right: 0px;
+}
+
+.form-group  input{
+    margin-right: 0px;
+    background: rgb(218, 220, 224);
+    height: 28.5px;
+}
+.form-group  textarea{
+    margin-right: 0px;
+    background: rgb(218, 220, 224);
+    height: 40px;
+    width: 100%;
+}
+
+.form-group input ::placeholder,
+.form-group textarea ::placeholder{
+    color: #999;
+}
+
+.contact-form .second-container form button{
+    width: 200px;
+    height: 50px;
+    background: #00ad5f;
+    color:#fff;
+    font-size: 17px;
+    font-weight: 600px;
+    text-transform: uppercase;
+    border: 0;
+    position: relative;
+    left: calc( 50% - 100 px);
+    cursor: pointer;
+
+
+}
+.contact-form .second-container form button:hover{
+    background:#7b818f;
+}
+@media screen and (max-width:800px){
+    .contact-form{
+        width:90vw;
+    }
+}
+@media screen and (max-width:700px){
+    .contact-form{
+        flex-direction: column-reverse;
+    }
+    .contact-form >*{
+        width:100%;
+    }
+    .contact-form .first-container{
+        padding: 40px 0;
+    }
+    .footer-1{
+        flex-direction: column;
+    }
+     .div33{
+        width: 100%;
+        padding: 10px 0;
+    }
+}
 
